@@ -1,0 +1,45 @@
+kotomi@kondoukotominoMacBook-Air ~ % cd /Users/kotomi/Desktop/lesson/05kadai/kadai_004
+kotomi@kondoukotominoMacBook-Air kadai_004 % mkdir "git_callenge"
+kotomi@kondoukotominoMacBook-Air kadai_004 % cd /Users/kotomi/Desktop/lesson/05kadai/kadai_004/git_callenge
+kotomi@kondoukotominoMacBook-Air git_callenge % git init 
+Initialized empty Git repository in /Users/kotomi/Desktop/lesson/05kadai/kadai_004/git_callenge/.git/
+kotomi@kondoukotominoMacBook-Air git_callenge % git add hello_world.txt
+kotomi@kondoukotominoMacBook-Air git_callenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) b10c8c8] hello_world.txtを追加
+ Committer: 近藤　琴美 <kotomi@kondoukotominoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kotomi@kondoukotominoMacBook-Air git_callenge % git add hello_world.txt              
+kotomi@kondoukotominoMacBook-Air git_callenge % git commit -m "日本語訳を追記"
+[main 8223074] 日本語訳を追記
+ Committer: 近藤　琴美 <kotomi@kondoukotominoMacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+kotomi@kondoukotominoMacBook-Air git_callenge % git log --oneline
+8223074 (HEAD -> main) 日本語訳を追記
+b10c8c8 hello_world.txtを追加
+kotomi@kondoukotominoMacBook-Air git_callenge % 
